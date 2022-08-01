@@ -55,7 +55,6 @@ main:
 
     # load back the stack
     addi sp, sp 16
-
     # save output of first classify on the stack
     sw a0, 0(sp)
 
@@ -107,6 +106,7 @@ main:
     li a1 '\n'
     jal print_char
     # END MAIN CHAIN
+    
 
     # BEGIN MAIN CHAIN
 
